@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 37px;
+}
+.navbar-nav {
+  font-family: "Cabin", sans-serif;
+  font-size: 16px;
+}
+.leyenda {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 37px;
+}
+
+.ingre-prepa {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+.masa-lista {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+}
+.recetas {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.card-title {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+.card-text {
+  font-family: "Cabin", sans-serif;
+
+  font-size: 16px;
+}
+.suscribete {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.obten {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+.empezar {
+  font-family: "Cabin", sans-serif;
+}
+.footerfont {
+  font-family: "Lobster", cursive;
+  font-size: 37px;
+  text-align: center;
+}
+
+hr {
+  background-color: black !important;
+}
+
+.porciones {
+  font-size: 20px;
+}
+
+.carousel-indicators li {
+  margin-top: 20em;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.masa-lista li {
+  list-style: none;
+}
+
+ul {
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.receta {
+  text-align: center;
+}
+
+.inscribete1 {
+  padding-top: 10em;
+}
+
+.inscribete2 {
+  padding-bottom: 10em;
+}
+
+.newsletter {
+  text-align: center;
+  color: white;
+}
+
+.buttonsize {
+  width: 10em;
+}
+
+.imagen_pizza {
+  background-image: url(../img/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 22em;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .leyenda {
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    font-size: 25px !important;
+    text-align: center;
+  }
+
+  .imagen_pizza {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 18em;
+  }
+
+  .hide {
+    display: inline;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .leyenda {
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    font-size: 25px !important;
+    text-align: center;
+  }
+
+  .imagen_pizza {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 18em;
+  }
+
+  .hide {
+    display: inline;
+  }
+}
